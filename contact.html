@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - First Lap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="mmm">
+    <h1>Contact Us</h1>
+    <p>Add to your website a contact page and put it online.</p>
+
+    <!-- الفورم المطلوب بكل العناصر -->
+    <form action="#" method="POST">
+
+        <!-- 1. Text -->
+        <label for="name">Full Name (Text):</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- 2. Email -->
+        <label for="email">Email Address (Email):</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- 3. Number -->
+        <label for="age">Age or ID (Number):</label><br>
+        <input type="number" id="age" name="age"><br><br>
+
+        <!-- 4. Date -->
+        <label for="bday">Date (Date):</label><br>
+        <input type="date" id="bday" name="bday"><br><br>
+
+        <!-- 5. Radio buttons -->
+        <label>Gender (Radio buttons):</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- 6. Checkboxes -->
+        <label>Interests (Checkboxes):</label><br>
+        <input type="checkbox" id="html-check" name="interest" value="HTML">
+        <label for="html-check">HTML</label><br>
+        <input type="checkbox" id="css-check" name="interest" value="CSS">
+        <label for="css-check">CSS</label><br><br>
+
+        <!-- 7. Dropdown menu (Select) -->
+        <label for="country">Country (Dropdown menu):</label><br>
+        <select id="country" name="country">
+            <option value="egypt">Egypt</option>
+            <option value="ksa">KSA</option>
+            <option value="uae">UAE</option>
+        </select><br><br>
+
+        <!-- 8. Large text box (Textarea) -->
+        <label for="message">Your Message (Large text box):</label><br>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+        <!-- زر الإرسال -->
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <br>
+    <a href="index.html">Back to Home</a> |
+    <a href="about.html">About Us</a>
+</body>
+
+</html>

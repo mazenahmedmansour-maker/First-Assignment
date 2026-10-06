@@ -1,0 +1,26 @@
+#mmm {
+    background-color: rgb(124, 76, 13);
+    width: 800px;
+    border: black solid 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+    padding: 20px;
+}
+
+#first-p {
+    color: rgb(43, 205, 211);
+    border: black solid 5px;
+    padding: 20px;
+}
+
+#second-p {
+    color: rgb(43, 205, 211);
+    border: black solid 5px;
+    padding: 20px;
+}
+
+img {
+    border: black solid 5px;
+
+}
